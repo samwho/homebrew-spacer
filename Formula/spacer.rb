@@ -4,10 +4,10 @@ class Spacer < Formula
   homepage "https://github.com/samwho/spacer"
 
   if OS.mac?
-      url "https://github.com/samwho/spacer/releases/download/#{version}/spacer-#{version}-x86_64-apple-darwin.tar.gz"
+      url "https://github.com/samwho/spacer/releases/download/v#{version}/spacer-#{version}-x86_64-apple-darwin.tar.gz"
       sha256 "6827deb9174b5fb0629e64b266939d8829229cebbab85a83a1821a139cb6cfdc"
   elsif OS.linux?
-      url "https://github.com/samwho/spacer/releases/download/#{version}/spacer-#{version}-x86_64-unknown-linux-gnu.tar.gz"
+      url "https://github.com/samwho/spacer/releases/download/v#{version}/spacer-#{version}-x86_64-unknown-linux-gnu.tar.gz"
       sha256 "7bfe4b413b10f1a5799955688d111eed2280bd51a70f5a4fe8d34db8aa1dbf1f"
   end
 
