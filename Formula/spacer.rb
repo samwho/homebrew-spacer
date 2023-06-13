@@ -1,4 +1,4 @@
-class SpacerBin < Formula
+class Spacer < Formula
   version '0.1.0'
   desc "A small command-line utility for adding spacers to command output"
   homepage "https://github.com/samwho/spacer"
