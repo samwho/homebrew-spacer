@@ -1,14 +1,14 @@
 class Spacer < Formula
-  version '0.1.8'
+  version '0.2.0'
   desc "A small command-line utility for adding spacers to command output"
   homepage "https://github.com/samwho/spacer"
 
   if OS.mac?
       url "https://github.com/samwho/spacer/releases/download/v#{version}/spacer-x86_64-apple-darwin.tar.gz"
-      sha256 "c244f98faa581105051278827705cbb3e6c6d40d6d956d9aa483fcefe11b4b57"
+      sha256 "afb048048a420a48d325141ab1c447f871ab6dacb04143f198c7ecfc640e7e0e"
   elsif OS.linux?
       url "https://github.com/samwho/spacer/releases/download/v#{version}/spacer-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "c127514d126bb369003ccbce72a4d147c9447ff0bf055e37c858fac6b92dd34a"
+      sha256 "1bdb7debf6387bbe6da68ee70c8edbcac7f8affa43665f82e391212bba610985"
   end
 
   def install
